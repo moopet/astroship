@@ -1,0 +1,13 @@
+---
+export interface ImageeProps {
+  text: string;
+}
+
+export interface Props {
+  item: ImageeProps;
+}
+
+const { item } = Astro.props;
+---
+
+<div set:html={item.text} />

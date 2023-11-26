@@ -25,6 +25,8 @@
     "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
-    "accessible-astro-components": "^2.3.1"
+    "accessible-astro-components": "^2.3.1",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0"
   }
 }

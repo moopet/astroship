@@ -9,7 +9,7 @@ export interface Props {
 
 const { item } = Astro.props;
 console.log("text template");
-console.log(item);
+console.log(item.text.value.document);
 ---
 
-<div set:html={item.text} />
+<!-- <div set:html={item.text.value.document} /> -->
